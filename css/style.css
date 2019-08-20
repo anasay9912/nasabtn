@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#background{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Boton*/
+
+button{
+    margin-top: 10vh;
+    background: blue;
+    display: inline-block;
+    padding: 7px 8px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button img{
+    width: 60px; 
+    display: block;
+    
+}
+
+/*Imagen Nasa*/
+
+#idImgNasa{
+    margin-top: 10vh;
+    width: 500px;
+}
